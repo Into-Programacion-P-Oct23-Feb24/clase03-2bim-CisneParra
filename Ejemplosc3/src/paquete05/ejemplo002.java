@@ -22,8 +22,7 @@ public class ejemplo002 {
         }
         System.out.printf("Sumatoria total: %d\n", suma);
         /*
-        Para poder hacer la sumatoria de los tres numeros: 10, 2, 4
-        dados en el arreglo:
+        Para poder hacer la sumatoria de los tres numeros: 10, 2, 4 dados en el arreglo:
         10  41  40 
         1   2   3
         1   12  4
