@@ -8,7 +8,7 @@ package paquete05;
  *
  * @author UTPL
  */
-public class ejemplo002 {
+public class Ejemplo002 {
 
     public static void main(String[] args) {
         int[][] arreglo = {{10, 41, 40}, {1, 2, 3}, {1, 12, 4}};
