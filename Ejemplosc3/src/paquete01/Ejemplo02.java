@@ -5,6 +5,8 @@
  */
 package paquete01;
 
+import java.util.Scanner;
+
 /**
  *
  * @author reroes
@@ -18,13 +20,20 @@ public class Ejemplo02 {
         // Creación de arreglo bidimensionales
         
         // forma 1
+        Scanner entrada = new Scanner(System.in);
         int[][] arreglo1 = new int[3][4]; //
         System.out.printf("Uso de la opción length: %d\n", arreglo1.length);
         
         System.out.printf("Valor en la posición [0][2]\n", arreglo1[0][2]);
        
         arreglo1[0][2] = 1000;
-        
+        for (int fila = 0; fila < arreglo1.length; fila++) {
+            for (int col = 0; col < arreglo1[fila].length; col++) {
+                System.out.println("ingrese un numero");
+                arreglo1[fila][col] = entrada.nextInt();
+                
+            }
+        }
                
         for (int fila = 0; fila < arreglo1.length; fila++) {
             for (int col = 0; col < arreglo1[fila].length; col++) {
