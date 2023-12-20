@@ -41,7 +41,7 @@ public class Ejemplo022 {
                
         for (int fila = 0; fila < arreglo1.length; fila++) {
             for (int col = 0; col < arreglo1[fila].length; col++) {
-                System.out.printf("fila[%d] columna[%d] = %d\n", 
+                System.out.printf("fila[%d] columna[%d] = %d\n",
                         fila, col, arreglo1[fila][col]);
             }
         }
