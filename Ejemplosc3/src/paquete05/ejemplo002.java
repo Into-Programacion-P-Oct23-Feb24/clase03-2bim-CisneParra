@@ -22,13 +22,10 @@ public class Ejemplo002 {
         }
         System.out.printf("Sumatoria total: %d\n", suma);
         /*
-        Para poder hacer la sumatoria de los tres numeros: 10, 2, 4 dados en el arreglo:
-        10  41  40 
-        1   2   3
-        1   12  4
-        utilice la lógica simple de lo que comparten en común dentro del arreglo
-        sus posiciones referentes son que su fila es siempre igual a su columna
-        con un ciclo repetitivo for recorri el arreglo y con un ciclo if descarte
+        Para poder hacer la sumatoria de los tres numeros: 10, 2, 4 dados en el arreglo,
+        utilicé la lógica simple de lo que comparten en común dentro del arreglo
+        sus posiciones referentes son: que su fila es siempre igual a su columna
+        con un ciclo repetitivo for recorrí el arreglo y con un ciclo if descarté
         los datos que debia sumar.
         */
     }
