@@ -8,7 +8,7 @@ package paquete05;
  *
  * @author UTPL
  */
-public class Ejemplo001 {
+public class Ejemplo0011 {
     public static void main(String[] args) {
         int[] arreglo3 = new int[2];
         for (int i = 0; i < arreglo3.length; i++ ){
