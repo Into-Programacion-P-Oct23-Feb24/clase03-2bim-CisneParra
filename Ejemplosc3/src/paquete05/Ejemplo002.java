@@ -19,7 +19,7 @@ public class Ejemplo002 {
                     suma = suma + arreglo[fila][col];
                 }
             }
-        }//.
+        }
         System.out.printf("Sumatoria total: %d\n", suma);
         /*
         Para poder hacer la sumatoria de los tres numeros: 10, 2, 4 dados en el arreglo,
