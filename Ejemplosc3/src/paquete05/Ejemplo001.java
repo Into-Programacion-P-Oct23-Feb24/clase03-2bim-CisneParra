@@ -14,6 +14,6 @@ public class Ejemplo001 {
         for (int i = 0; i < arreglo3.length; i++ ){
             System.out.printf("%d\n", arreglo3[i]);
         }
-    }//.
+    }
     
 }
